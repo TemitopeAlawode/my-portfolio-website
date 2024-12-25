@@ -7,7 +7,7 @@ const Header = () => {
   };
   return (
     <header id="header" className="sticky top-0 z-10 bg-[#172554] py-4">
-      <div className="relative container flex justify-between items-center mx-auto text-white">
+      <div className=" relative container flex justify-between items-center mx-auto px-4 text-white">
         <div className="text-5xl font-bold">
           <a href="#">TA</a>
         </div>
