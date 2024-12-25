@@ -12,7 +12,7 @@ const Hero = () => {
           />
         </div>
         {/* Description */}
-        <div className="text-2xl md:text-4xl font-bold p-7 space-y-12 text-center md:text-left">
+        <div className="text-2xl md:text-4xl font-bold p-7 space-y-12 text-center text-white md:text-left">
           <h1 className="w-auto">
             Hey, I&apos;m
             <br />

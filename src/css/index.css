@@ -9,4 +9,14 @@ body{
     padding: 0;
 }
 
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+  display: block;
+  width: 25px;
+  height: 3px;
+  /* background-color: white; */
+  margin: 5px auto;
+  transition: all 0.3s ease;
+}
 
