@@ -46,7 +46,7 @@ const Skills = () => {
         </div>
          {/* ExpressJS */}
          <div className="flex flex-col items-center">
-            <SiExpress className="text-gray-900 text-6xl"/>
+            <SiExpress className="text-gray-600 text-6xl"/>
             <p className="pt-2 text-lg">ExpressJS</p>
         </div>
          {/* PHP */}

@@ -17,6 +17,6 @@ body{
   height: 3px;
   /* background-color: white; */
   margin: 5px auto;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease-in;
 }
 
