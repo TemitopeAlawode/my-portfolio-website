@@ -2,7 +2,7 @@ import {
     FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaGitAlt 
   } from "react-icons/fa";
   import { 
-    SiTailwindcss, SiJavascript, SiPhp, SiMysql, SiExpress 
+    SiTailwindcss, SiJavascript, SiPhp, SiMysql, SiExpress, SiTypescript, SiRedux, SiRedis 
   } from "react-icons/si";
 
 const Skills = () => {
@@ -63,6 +63,21 @@ const Skills = () => {
          <div className="flex flex-col items-center">
             <FaGitAlt className="text-orange-600 text-6xl"/>
             <p className="pt-2 text-lg">Git</p>
+        </div>
+        {/* TypeScript */}
+        <div className="flex flex-col items-center">
+            <SiTypescript className="text-6xl" color="#3178C6"/>
+            <p className="pt-2 text-lg">TypeScript</p>
+        </div>
+        {/* Redux */}
+        <div className="flex flex-col items-center">
+            <SiRedux className="text-6xl" color="#764ABC"/>
+            <p className="pt-2 text-lg">Redux</p>
+        </div>
+        {/* Redis */}
+        <div className="flex flex-col items-center">
+            <SiRedis className="text-6xl" color="#DC382D"/>
+            <p className="pt-2 text-lg">Redis</p>
         </div>
         
         
